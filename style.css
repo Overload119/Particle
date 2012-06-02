@@ -1,0 +1,50 @@
+.container {
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+}
+
+.palette {
+	border-bottom: 1px solid Gray;
+	list-style: none;
+}
+.palette li {
+	margin-left: 0px;
+	padding: 8px;
+	display: inline;
+	list-style: none;
+}
+.palette li:hover {
+	background-color: #303030;
+	cursor: pointer;
+	padding: 8px;
+}
+
+#g {
+	border: 1px double White;	
+}
+#g:hover {
+	cursor: none;
+}
+
+a {
+	color: Yellow;
+}
+
+body {
+	background-color: Black;
+	color: White;
+	font-style: Arial;
+	background-image: linear-gradient(bottom, rgb(102,102,102) 0%, rgb(0,0,0) 23%);
+	background-image: -o-linear-gradient(bottom, rgb(102,102,102) 0%, rgb(0,0,0) 23%);
+	background-image: -moz-linear-gradient(bottom, rgb(102,102,102) 0%, rgb(0,0,0) 23%);
+	background-image: -webkit-linear-gradient(bottom, rgb(102,102,102) 0%, rgb(0,0,0) 23%);
+	background-image: -ms-linear-gradient(bottom, rgb(102,102,102) 0%, rgb(0,0,0) 23%);
+
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+
+}
+

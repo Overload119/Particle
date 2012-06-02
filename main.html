@@ -1,0 +1,29 @@
+<html>
+
+<head>
+	<script src="jquery.min.js"></script>
+	<script src="particle.js"></script>	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+	<div class='container'>
+
+		
+		<img style="border: 1px solid white;border-bottom:none;" src="banner.png" alt="banner"/>
+		<canvas id='g' width='600' height='600'></canvas>
+		Select a particle...
+		<ul class='palette'>
+			<li onclick='Interface.onParticleChange(this, WATER)' style="color:Yellow">Water</li>
+			<li onclick='Interface.onParticleChange(this, PLANT)'>Plant</li>		
+			<li onclick='Interface.onParticleChange(this, SOLID)'>Solid</li>
+			<li onclick='Interface.onParticleChange(this,  FIRE)'>Fire</li>
+		</ul>
+		<br/>
+		<p style="text-align:center">Inspired by the <a href='#'>Falling Sands</a> game. </p>
+		<p id='dbg'></p>
+	</div>
+
+</body>
+
+</html>
